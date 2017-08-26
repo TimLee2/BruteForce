@@ -1,13 +1,6 @@
 /*
 * Brute Force (4 chars or less)
 * Author: Tim Lee
-* Date Created: 6/10/2017
-* 
-* The brute force program compares a given string named 'test'. The program 
-* will run through all the possible n-number of character combinations
-* until a match is found with 'test'. The matching string will be encrypted.
-*
-* The 'test' string needs to be changed manually.
 */
 
 #include <iostream>
