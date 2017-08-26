@@ -15,9 +15,9 @@ More information about the g++ compiler along with the installation instructions
 
 ## Compilation and Execution
 Compilation of the program is as follows:
-g++ bruteforce.cpp -o [ExecutableName]
+> g++ bruteforce.cpp -o [ExecutableName]
 
 To run the program:
-./[ExecutableName]
+> ./[ExecutableName]
 
 
