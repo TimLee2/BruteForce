@@ -21,6 +21,22 @@ Compilation of the program is as follows:
 To run the program:
 > ./[ExecutableName]
 
+# Usage
+
+The encryptionString() class will produce varying results each time the program is run.
+The code
+```
+char randomValue = rand()%(90+1-65) + 65;
+```
+will produce random values between certain characters in the [ASCII table](http://www.asciitable.com/).
+
+The following will then place each randomly selected ASCII value into a random element in the array:
+```
+for(int i = 0; i < toEncrypt.size(); i++){
+    encryption[i] = toEncrypt[i] ^ random[i % (sizeof(random))];
+}
+```
+
 # Examples
 
 If string 'test' is set to "temp", the resulting output will follow:
