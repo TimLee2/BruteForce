@@ -24,8 +24,10 @@ To run the program:
 # Examples
 
 If string 'test' is set to "temp", the resulting output will follow:
-> NUMBER OF CHARACTERS: 4
-> ----
-> MATH FOUND:
-> ENCRYPTED: 4ejn
-> DECRYPTED: temp
+```
+NUMBER OF CHARACTERS: 4
+----
+MATH FOUND:
+ENCRYPTED: 4ejn
+DECRYPTED: temp
+```
