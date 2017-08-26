@@ -5,6 +5,6 @@ A user-defined string named 'test' will be compared against all possible n-numbe
 
 The 'test' string needs to be changed manually.
 
-Compile using [g++](https://gcc.gnu.org/): \n
+Compile using [g++](https://gcc.gnu.org/):
 g++ bruteforce.cpp -o [ExecutableName]
 
