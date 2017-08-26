@@ -14,10 +14,18 @@ The g++ compiler will need to be installed on the system and used for compilatio
 More information about the g++ compiler along with the installation instructions can be found [here](https://gcc.gnu.org/).
 
 ## Compilation and Execution
+
 Compilation of the program is as follows:
 > g++ bruteforce.cpp -o [ExecutableName]
 
 To run the program:
 > ./[ExecutableName]
 
+# Examples
 
+If string 'test' is set to "temp", the resulting output will follow:
+> NUMBER OF CHARACTERS: 4
+> ----
+> MATH FOUND:
+> ENCRYPTED: 4ejn
+> DECRYPTED: temp
