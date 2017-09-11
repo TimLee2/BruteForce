@@ -47,3 +47,10 @@ MATH FOUND:
 ENCRYPTED: 4ejn
 DECRYPTED: temp
 ```
+
+If no match is found with 'test' and 'test' is set to "zzzz", then the following will appear:
+```
+NUMBER OF CHARACTERS: 4
+----
+MATCH NOT FOUND
+```
