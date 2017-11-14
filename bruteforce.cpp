@@ -64,9 +64,11 @@ int main(int argc, char *argv[]){
  * string.
  */
 string encryptString(string toEncrypt){
-
+    
+    // Seeds a random number so it's different each time.
     srand(time(NULL));
     
+    // Chooses random ASCII values
     char random[4];
     for(int i = 0; i < 4; i++){
         char randomValue = rand()%(90 + 1 - 65) + 65;
